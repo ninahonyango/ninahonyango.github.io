@@ -736,8 +736,7 @@ span {
     .experience-page,
     .certifications-page,
     .education-page,
-    .credentials-page,
-    .contact-form {
+    .credentials-page {
         padding: 200px 5% 60px;
     }
 
@@ -828,13 +827,17 @@ span {
     }
 
     /* CONTACT */
+    .contact-form {
+        padding: 140px 5% 60px;
+    }
+
     .contact-form h2 {
         font-size: 32px;
     }
 
     .contact-form form {
         width: 100%;
-        padding-top: 120px;
+
     }
 
     .contact-form form .input-box {
