@@ -165,17 +165,9 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12% 8%;
+    padding: 3% 8%;
     gap: 10em;
     background-color: #1d1c1c;
-}
-
-.about-img img {
-    position: relative;
-    width: 350px;
-    box-shadow: 0 0 10px rgb(104, 145, 23),
-        0 0 25px rgb(104, 145, 23);
-    border-radius: 60%;
 }
 
 .about-content h2 {
@@ -220,6 +212,12 @@ span {
     border-radius: .8rem;
     margin: .5rem 0;
     resize: none;
+}
+
+.contact.active {
+    background-color: olivedrab;
+    color: white;
+    box-shadow: 0 0 25px olivedrab;
 }
 
 .about-content {
@@ -394,8 +392,8 @@ span {
 .experience-page {
     min-height: 100vh;
     padding: 140px 12% 60px;
-    background: #faf9f9;
-    color: white;
+    background: white;
+    color: black;
 }
 
 .experience-title {
@@ -436,7 +434,7 @@ span {
 }
 
 .timeline-content {
-    background: rgb(22, 21, 21);
+    background: rgb(226, 225, 225);
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(128, 128, 0, 0.4);
