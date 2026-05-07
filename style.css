@@ -734,3 +734,28 @@ span {
         text-align: center;
     }
 }
+
+@media(max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        padding: 20px 5%;
+        gap: 15px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar a {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .contact {
+        margin-top: 10px;
+    }
+}
